@@ -1,13 +1,18 @@
-CREATE DATABASE CompanyDB;
-USE CompanyDB;
--- CREATE TABLE A(B INT);
--- drop TABLE A;
-CREATE TABLE Employee 
-	( EMPID INTEGER, EMPNAME TEXT, DESIGNATION CHAR,
-	  SALARY INTEGER, PROVIDANT_FUND INTEGER);
-INSERT INTO Employee VALUES (1,"HAMMAD","f",100000000,99999999);
-SELECT *,SALARY*0.17,SALARY*0.17+PROVIDANT_FUND,SALARY-SALARY*0.17 FROM Employee;
--- SHOW COLUMN FROM CompanyDB;
 
--- to delete database
--- DROP DATABASE CompanyDB;
+-- filter sort duplicate
+ORDER BY
+ -- by default asxending  ASC DESC
+
+Select cloumns from customertable order by columnname;
+selct * from customer order by firstname Desc; -- ascending
+selct * from customer order by firstname Desc; -- descending
+
+selct * from customer order by firstname Desc,lastname Asc;-- left to right
+
+cost desc
+cost dec & customerid asc
+update  cost of clientid no. 1 to  100
+
+update tablename 
+set columnnamae = '100' 
+where clientid = 1 or orderid = 1;
