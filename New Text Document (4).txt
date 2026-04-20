@@ -1,0 +1,5 @@
+-- create database compant_db2;-- 
+use  company_db2;
+create table abubakr (pehla int, dosra char);
+insert into abubakr values (1,'L');
+select* from abubakr;
